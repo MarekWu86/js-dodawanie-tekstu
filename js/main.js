@@ -1,5 +1,9 @@
-var paragraf
 
+
+var paragraf = document.querySelector("p");
+    
 function myFunction() {
-    document.querySelector("paragraf").paragraf = "dpa";
+    paragraf.textContent = "dpa";
 }
+
+myFunction();
