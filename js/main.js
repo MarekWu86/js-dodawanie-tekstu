@@ -2,8 +2,8 @@
 
 var paragraf = document.querySelector("p");
     
-function myFunction() {
+function setParagrafText() {
     paragraf.textContent = "dpa";
 }
 
-myFunction();
+setParagrafText();
